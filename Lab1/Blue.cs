@@ -1,4 +1,6 @@
-﻿namespace Lab1
+// Hello C# 
+
+namespace Lab1
 {
     public class Blue
     {
@@ -84,4 +86,5 @@
             return answer;
         }
     }
+
 }
