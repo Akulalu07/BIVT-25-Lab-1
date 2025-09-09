@@ -21,7 +21,10 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (a % b == 0 || b % a == 0)
+            if (a == 0 && b == 0)
+            {
+                answer = true;
+            }else if (a % b == 0 || b % a == 0)
             {
                 answer = true;
             }
@@ -34,7 +37,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (a * a == b || b * b == b)
+            if (a * a == b || a*a*a == b || b*b*b == a || b * b == a)
             {
                 answer = true;
             }
@@ -81,10 +84,10 @@ namespace Lab1
 
             // code here
             double squart = Math.Sqrt(squareS) / 2;
-
-            if (squart * Math.PI <= circleS)
+            double diametr = Math.Sqrt(circleS/Math.PI)*2;
+            if (Math.Sqrt(squart*squart*2)  <= diametr)
             {
-                answer = true;                
+                answer = true;
             }
             // end
 
@@ -132,10 +135,7 @@ namespace Lab1
 
             // code here
             bool isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
-            if (isLeapYear)
-            {
-                answer =  false;
-            } 
+            
             int aurors = (pupils + 6) / 7;
             int totalCost = aurors * salary + 5 * pupils;
 
@@ -143,9 +143,13 @@ namespace Lab1
             {
                 answer = true;
             }
+            if (isLeapYear)
+            {
+                answer = false;
+            } 
             // end
 
-                return answer;
+            return answer;
         }
     }
 }
