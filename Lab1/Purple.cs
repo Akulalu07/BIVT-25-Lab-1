@@ -21,10 +21,11 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (a == 0 && b == 0)
+            if (a == 0 || b == 0)
             {
                 answer = true;
-            }else if (a % b == 0 || b % a == 0)
+            }
+            else if (a % b == 0 || b % a == 0)
             {
                 answer = true;
             }
@@ -83,9 +84,13 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            double squart = Math.Sqrt(squareS) / 2;
-            double diametr = Math.Sqrt(circleS/Math.PI)*2;
-            if (Math.Sqrt(squart*squart*2)  <= diametr)
+            double sideSquare = Math.Sqrt(squareS);
+            double diagonalSquare = sideSquare * Math.Sqrt(2); 
+    
+            double radiusCircle = Math.Sqrt(circleS / Math.PI); 
+            double diameterCircle = 2 * radiusCircle;
+    
+            if (diagonalSquare <= diameterCircle)
             {
                 answer = true;
             }
