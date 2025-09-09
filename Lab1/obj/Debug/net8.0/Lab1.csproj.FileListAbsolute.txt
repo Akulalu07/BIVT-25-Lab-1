@@ -1,0 +1,15 @@
+/home/error/misis/BIVT-25-Lab-1/Lab1/bin/Debug/net8.0/Lab1
+/home/error/misis/BIVT-25-Lab-1/Lab1/bin/Debug/net8.0/Lab1.deps.json
+/home/error/misis/BIVT-25-Lab-1/Lab1/bin/Debug/net8.0/Lab1.runtimeconfig.json
+/home/error/misis/BIVT-25-Lab-1/Lab1/bin/Debug/net8.0/Lab1.dll
+/home/error/misis/BIVT-25-Lab-1/Lab1/bin/Debug/net8.0/Lab1.pdb
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.GeneratedMSBuildEditorConfig.editorconfig
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.AssemblyInfoInputs.cache
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.AssemblyInfo.cs
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.csproj.CoreCompileInputs.cache
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.sourcelink.json
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.dll
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/refint/Lab1.dll
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.pdb
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/Lab1.genruntimeconfig.cache
+/home/error/misis/BIVT-25-Lab-1/Lab1/obj/Debug/net8.0/ref/Lab1.dll

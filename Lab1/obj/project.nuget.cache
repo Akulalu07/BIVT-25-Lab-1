@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DAJekDBfUwA=",
+  "dgSpecHash": "FEE1PW4Ueok=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Markosias\\Documents\\BIVT-25\\BIVT-25-Lab-1\\Lab1\\Lab1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/error/misis/BIVT-25-Lab-1/Lab1/Lab1.csproj",
+  "expectedPackageFiles": [
+    "/home/error/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
+    "/home/error/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512",
+    "/home/error/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.19/microsoft.netcore.app.host.linux-x64.8.0.19.nupkg.sha512"
+  ],
   "logs": []
 }
